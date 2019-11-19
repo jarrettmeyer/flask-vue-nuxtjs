@@ -1,0 +1,7 @@
+{
+  "python.analysis.openFilesOnly": false,
+  "python.linting.pylintPath": "${workspaceFolder}/backend/venv/bin/pylint",
+  "python.pythonPath": "backend/venv/bin/python",
+  "python.sortImports.path": "${workspaceFolder}/backend/venv/bin/isort",
+  "python.venvPath": "${workspaceFolder}/backend/venv"
+}
