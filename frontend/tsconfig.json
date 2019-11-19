@@ -12,10 +12,11 @@
       "~/*": ["./*"],
       "@/*": ["./*"]
     },
+    "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
     "types": ["@types/node", "@nuxt/types"]
   },
-  "exclude": ["node_modules"]
+  "exclude": [".nuxt", "dist", "node_modules"]
 }
