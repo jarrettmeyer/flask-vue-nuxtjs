@@ -1,5 +1,8 @@
-backend/venv/
-frontend/.nuxt/
-frontend/node_modules/
+
+
+.nuxt/
+__pycache__/
+venv/
+node_modules/
 
 .DS_Store
