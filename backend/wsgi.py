@@ -2,6 +2,7 @@ from datetime import datetime
 from flask import Flask, jsonify, render_template, send_file
 from flask_cors import CORS
 
+
 app = Flask(__name__, static_folder='dist', template_folder='dist')
 
 
@@ -12,8 +13,7 @@ def index():
 
 @app.route('/api/time')
 def api_time():
-    result = {'time': datetime.now()}
-    return jsonify(result)
+    return jsonify({'time': datetime.now()})
 
 
 @app.route('/<path:path>')
