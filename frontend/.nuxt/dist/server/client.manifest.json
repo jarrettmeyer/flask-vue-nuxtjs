@@ -2,21 +2,21 @@
   "publicPath": "/_nuxt/",
   "all": [
     "../server/index.spa.html",
-    "1b83ea2fdb57581bca46.js",
+    "16516ef1feef835aa366.js",
     "350dec846bfd28ee6097.js",
     "3fc81a141261ccc1e116.js",
     "4557c13478f3dee2597d.js",
-    "64738336d4a26cbb389a.js",
+    "757708f6ff6fbe512cd3.js",
     "LICENSES"
   ],
   "initial": [
-    "64738336d4a26cbb389a.js",
+    "16516ef1feef835aa366.js",
     "350dec846bfd28ee6097.js",
     "4557c13478f3dee2597d.js"
   ],
   "async": [
-    "1b83ea2fdb57581bca46.js",
-    "3fc81a141261ccc1e116.js"
+    "3fc81a141261ccc1e116.js",
+    "757708f6ff6fbe512cd3.js"
   ],
   "modules": {
     "37111310": [
@@ -518,49 +518,49 @@
       4
     ],
     "b5a5a844": [
-      1
+      5
     ],
-    "fa6c6600": [
-      1
+    "4d3d9b1f": [
+      5
     ],
     "f95438f8": [
-      1
+      5
     ],
-    "70ca2a50": [
-      1
+    "dbe28e12": [
+      5
     ],
     "b6db2fc6": [
-      1
+      5
     ],
     "5ac9bc78": [
-      1
+      5
     ],
     "6736d73c": [
-      1
+      5
     ],
     "30aea442": [
-      1
+      5
     ],
     "33cf8573": [
-      1
+      5
     ],
     "24fbb71e": [
-      1
+      5
     ],
     "691e9d5a": [
-      1
+      5
     ],
     "6b550544": [
-      1
+      5
     ],
     "239b0628": [
-      1
+      5
     ],
     "08742502": [
-      1
+      5
     ],
     "86f72bea": [
-      1
+      5
     ],
     "f5155dce": [
       3
@@ -573,10 +573,10 @@
     ]
   },
   "assetsMapping": {
-    "1b83ea2fdb57581bca46.js": "2a130dde",
+    "16516ef1feef835aa366.js": "6fca0322",
     "350dec846bfd28ee6097.js": "0859c165",
     "3fc81a141261ccc1e116.js": "2aff1868",
     "4557c13478f3dee2597d.js": "1a3ae26b",
-    "64738336d4a26cbb389a.js": "6fca0322"
+    "757708f6ff6fbe512cd3.js": "2a130dde"
   }
 }
