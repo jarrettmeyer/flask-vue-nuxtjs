@@ -1,17 +1,19 @@
 {
   "name": "flask-vue-demo",
   "version": "1.0.0",
-  "description": "My well-made Nuxt.js project",
-  "author": "Jarrett Meyer",
+  "description": "Getting Flask and Vue.js + NuxtJS to play nicely with each other.",
+  "author": "Jarrett Meyer <meyer_jarrett@lilly.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "nuxt",
     "generate": "nuxt generate",
-    "lint": "eslint --config .eslintrc.json --ignore-path .eslintignore --fix --ext .js,.ts,.vue ."
+    "lint": "eslint --config .eslintrc.json --ignore-path .eslintignore --fix --ext .js,.ts,.vue .",
+    "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.8.0",
+    "node-gyp": "^6.0.1",
     "nuxt": "^2.0.0",
     "vue-property-decorator": "^8.3.0"
   },

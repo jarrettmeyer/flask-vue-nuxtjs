@@ -1,22 +1,17 @@
-# flask-vue-demo
+# frontend
 
-> My well-made Nuxt.js project
+This front-end project is a [Vue.js]() + [NuxtJS]() application.
+
+## Requirements
+
+1.  Links to pages should work as expected.
+2.  Images served from `/static/` should work.
 
 ## Build Setup
 
-``` bash
-# install dependencies
+```bash
 $ npm run install
-
-# serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Point your browser to [localhost:3000](http://localhost:3000).

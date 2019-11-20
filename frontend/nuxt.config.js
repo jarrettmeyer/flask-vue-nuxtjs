@@ -1,6 +1,7 @@
 export default {
+  axios: {},
   build: {
-    extend () {}
+    extend() {}
   },
   buildModules: ["@nuxtjs/eslint-module", "@nuxt/typescript-build"],
   css: ["~assets/css/app.css"],
@@ -33,10 +34,10 @@ export default {
     height: "6px"
   },
   mode: "spa",
-  modules: [],
+  modules: ["@nuxtjs/axios"],
   plugins: [],
   typescript: {
     ignoreNotFoundWarnings: false,
     typeCheck: true
   }
-}
+};

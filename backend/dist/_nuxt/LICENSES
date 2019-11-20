@@ -22,6 +22,13 @@
   * @license MIT
   */
 
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
 /**
   * vue-class-component v7.1.0
   * (c) 2015-present Evan You

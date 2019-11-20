@@ -20,28 +20,21 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator"
-import { hasContentType } from "@/utilities"
+import { Component, Vue } from "vue-property-decorator";
+import { ApiTime, getTime } from "@/services";
 
-  interface ApiTime {
-    time: string;
+@Component({})
+export default class Index extends Vue {
+  time: string = "";
+
+  async fetchData(): Promise<void> {
+    const apiTime: ApiTime = await getTime();
+    this.time = apiTime.time;
   }
 
-  @Component({})
-export default class Index extends Vue {
-    time: string = "";
-
-    async fetchData (): Promise<void> {
-      const response = await window.fetch("/api/time")
-      if (response.ok && hasContentType(response, "application/json")) {
-        const json = (await response.json()) as ApiTime
-        this.time = json.time
-      }
-    }
-
-    mounted (): void {
-      this.fetchData()
-    }
+  mounted(): void {
+    this.fetchData();
+  }
 }
 </script>
 

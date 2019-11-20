@@ -14,8 +14,25 @@ each other.
 
 ## Building the Client Application
 
+The NuxtJS application uses [NPM](https://npmjs.org) to manage dependencies. These
+steps assume NPM is running correctly on your system.
+
 ```
 $ cd frontend
 $ npm install
 $ npm run build
+```
+
+## Building the Server Application
+
+The Flask server application makes use of [virtualenv](https://pypi.org/project/virtualenv/),
+which can have differences based on your OS. The `activate` command may be different
+on your platform.
+
+```
+$ cd backend
+$ virtualenv venv
+$ . venv/bin/activate
+$ pip install -f requirements.txt
+$ run
 ```

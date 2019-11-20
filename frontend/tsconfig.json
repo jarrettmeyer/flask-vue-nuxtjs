@@ -16,7 +16,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
-    "types": ["@types/node", "@nuxt/types"]
+    "types": ["@types/node", "@nuxt/types", "@nuxtjs/axios"]
   },
   "exclude": [".nuxt", "dist", "node_modules"]
 }
