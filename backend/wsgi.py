@@ -18,7 +18,10 @@ def api_time():
 
 @app.route('/<path:path>')
 def catch_all(path):
-    return app.send_static_file(path)
+    try:
+        return app.send_static_file(path)
+    except:
+        return app.send_static_file('404.html')
 
 
 if __name__ == '__main__':

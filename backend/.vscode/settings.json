@@ -1,0 +1,8 @@
+{
+  "python.analysis.openFilesOnly": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "${workspaceFolder}/venv/bin/pylint",
+  "python.pythonPath": "${workspaceFolder}/venv/bin/python3.7",
+  "python.sortImports.path": "${workspaceFolder}/venv/bin/isort",
+  "materialTheme.accent": "Sky"
+}
