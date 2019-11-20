@@ -64,6 +64,11 @@ h6 {
   font-size: 1.1rem;
 }
 
+img {
+  width: auto;
+  height: 240px;
+}
+
 p {
   margin-bottom: 1.2rem;
 }

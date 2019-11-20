@@ -7,12 +7,15 @@
         <a href="https://flask.palletsprojects.com/">Flask</a>, <a href="https://vuejs.org/">Vue.js</a>, and <a href="https://nuxtjs.org/">NuxtJS</a> to play nicely together.
       </p>
       <p>
-        <img src="coffee-cup.png" style="height: 240px;">
+        <img src="/coffee-cup.png">
       </p>
       <p>The time on the server is {{ time }}.</p>
       <p>
         <nuxt-link to="/about">
           About
+        </nuxt-link> |
+        <nuxt-link to="/deep/link">
+          Deep Link
         </nuxt-link>
       </p>
     </div>
