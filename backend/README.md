@@ -5,5 +5,5 @@
 $ pip install virtualenv
 $ virtualenv venv
 $ . venv/bin/activate
-$ pip install -f requirements.txt
+$ pip install -r requirements.txt
 ```
